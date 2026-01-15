@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-CURRENT_REAL_SERVER_URL = "https://api.my-secret2-server.com" 
+CURRENT_REAL_SERVER_URL = "https://api.my-secret3-server.com" 
 
 @app.route('/')
 def home():
