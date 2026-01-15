@@ -12,9 +12,7 @@ def home():
 def get_secure_url():
     response = {
         "status": "success",
-        "service_name": "Anti-Censorship Service",
-        "new_url": CURRENT_REAL_SERVER_URL,
-        "backup_ip": "142.99.xx.xx" # 
+        "new_ips": "["85.211.249.43" , "85.211.243.22" ,"85.211.192.119"]"
     }
     return jsonify(response)
 
