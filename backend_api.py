@@ -15,7 +15,7 @@ def get_secure_url():
          "new_ips": ["85.211.249.43", "85.211.243.22", "85.211.192.119"]
     }
     
-    return json.dumps(payload)
+    return json.dumps(response)
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=5000)
