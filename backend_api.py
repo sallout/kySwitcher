@@ -12,7 +12,7 @@ def home():
 def get_secure_url():
     response = {
         "status": "success",
-        "new_ips": "["85.211.249.43" , "85.211.243.22" ,"85.211.192.119"]"
+        "new_ips": "[\"85.211.249.43\", \"85.211.243.22\", \"85.211.192.119\"]"
     }
     return jsonify(response)
 
